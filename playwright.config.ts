@@ -34,6 +34,7 @@ const config: PlaywrightTestConfig = {
     ['html'],
     ['json', { outputFile: './playwright-report/results.json' }],
     ['junit', { outputFile: './playwright-report/results.xml' }],
+    ['github']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
